@@ -2,4 +2,4 @@
 2. yarn install
 3. node index.js
 
-It will created a template named ```Verification```. And it will try to use this template to send verification email
+It will create a template named ```Verification```. And it will try to use this template to send verification email
