@@ -32,7 +32,8 @@ ses.createTemplate(templateParams, (err, data) => {
   };
 
   ses.sendCustomVerificationEmail(verifyParams, (verifyErr, verifyData) => {
-    if (verifyErr) console.log(verifyErr, verifyErr.stack);
+    if (verifyErr) console.log(verifyErr);
+
     else console.log(verifyData);
   });
 });
